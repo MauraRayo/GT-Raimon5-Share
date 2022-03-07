@@ -1,0 +1,417 @@
+
+/*---------------mobile first-------------*/
+#pagPrincipal{
+    /* min-height: calc(100vh - 90px - 100px); */
+    margin-left: 15%;
+    width: 70%;
+}
+
+#imgPrincipal{
+    display:inline;
+    margin:auto;
+    width: 100%;
+}
+
+.imgSec{
+    display: none;
+}
+
+#btns{
+    display: flex;
+    margin-top: 5%;
+
+}
+
+#btnContacto{
+    background-color: transparent;
+    border-color: #0077B6;
+    color: #0077B6;
+    margin-left: 5%;
+    width: 230px;
+    height: 48px;
+    top: 787px;
+    display: inline-block;
+    border-radius: 12px;
+}
+#btnContacto:hover{
+    background-color: #CAEBD6;
+
+}
+#btnAbout{
+    background-color: transparent;
+    border-color: #0077B6;
+    color: #0077B6;
+    width: 230px;
+    height: 48px;
+    top: 787px;
+    display: inline;
+    margin-left: 15%;
+    margin-right: 5%;
+    border-radius: 12px;
+}
+#btnAbout:hover{
+    background-color: #CAEBD6;
+}
+
+h1{
+    font-family: 'Permanent Marker', cursive;
+    color: #0077B6;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+#about p{
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    text-align: justify;
+    align-items: center;
+}
+
+#groupP{
+    display:block;
+    margin:auto;
+    width: 60%;
+}
+
+h2{
+    font-family: 'Nova Round', cursive;
+    color: #0077B6;
+    margin-left: 15%;
+    margin-right: 10%;
+}
+
+#p1{
+    margin-left: 13%;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+#options{
+    margin-left: 17%;
+    margin-right: 10%;
+    margin-top: 2%;
+}
+
+#img3{
+    display: block;
+    margin: auto;
+    width: 65%;
+}
+
+#ask{
+    font-family: 'Nova Round', cursive;
+    color: #0077B6;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+#project{
+    font-family: 'Nova Round', cursive;
+    color: #181818;
+    margin-left: 20%;
+    margin-right: 15%;
+}
+
+#btnsForm{
+    margin-top: 5%;
+    margin-bottom: 8%;
+
+}
+
+
+#btnEmpresas{
+    background-color: transparent;
+    border-color: #0077B6;
+    color: #0077B6;
+    margin-left: 18%;
+    margin-right: 8%;
+    width: 130px;
+    height: 38px;
+    top: 787px;
+    display: inline-block;
+    border-radius: 12px;
+}
+#btnEmpresas:hover{
+    background-color: #CAEBD6;
+}
+#btnParticipa{
+    background-color: transparent;
+    border-color: #0077B6;
+    color: #0077B6;
+    width: 130px;
+    height: 38px;
+    top: 787px;
+    display: inline;
+    border-radius: 12px;
+}
+#btnParticipa:hover{
+    background-color: #CAEBD6;
+}
+
+#form{
+    margin-left: 4%;
+}
+
+h3{
+    font-family: 'Nova Round', cursive;
+    text-align: left;
+    color: #181818;
+}
+
+.mapouter{
+    position:right;
+    text-align:right;
+    margin-left: 5%;
+    /* margin-bottom: 15%; */
+    /* margin-top: 8%; */
+    height:350px;
+    width:400px;
+}
+
+.gmap_canvas{
+    overflow:hidden;
+    background:none!important;
+    height:350px;
+    width:400px;
+}
+
+#dch{
+    display: flex;
+}
+
+#contacto{
+    position: left;
+    justify-content: flex-end;
+    margin-left: 3%;
+    margin-top: 13%;
+    width: 29%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#contacto h3{
+    margin-top: 5%;
+}
+
+#formulario{
+    width: 40%;
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+.form-control{
+    float: right;
+}
+
+.form-label{
+    display: block;
+    float: left;
+}
+
+#enviar{
+    background-color: transparent;
+    border-color: #0077B6;
+    color: #0077B6;
+    border-radius: 12px;
+    width: 157px;
+    height: 38px;
+    top: 787px;
+    margin-top: 5%;
+    float: right;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+
+
+/*-------------responsive-----------*/
+
+@media(min-width: 600px) {
+
+    #pagPrincipal{
+        margin-left: 20%;
+    }
+
+    #imgPrincipal{
+        display:inline;
+        margin:auto;
+        width: 30%;
+        }
+
+    .imgSec{
+        margin:auto;
+        width: 30%;
+        display: inline-block;
+    }
+
+    #btns{
+        display: flex;
+        margin-top: 5%;
+        /* width: 50%; */
+        margin-left: 7%;
+    }
+
+    #btnContacto{
+        margin-left: 15%;
+        width: 251px;
+        height: 48px;
+        top: 787px;
+        display: inline-block;
+        border-radius: 12px;
+    }
+
+    #btnAbout{
+        width: 251px;
+        height: 48px;
+        top: 787px;
+        display: inline;
+        margin-left: 35%;
+        border-radius: 12px;
+    }
+
+    #about p{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    #groupP{
+        width: 40%;
+    }
+
+    h2{
+        margin-left: 25%;
+        margin-right: 20%;
+    }
+
+    #p1{
+        margin-left: 25%;
+        margin-right: 20%;
+    }
+
+    #options{
+        margin-left: 27%;
+        margin-right: 20%;
+    }
+
+    #img3{
+        width: 30%;
+    }
+
+    #ask{
+        margin-top: 2%;
+        margin-bottom: 3%;
+    }
+
+    #project{
+        margin-left: 30%;
+        margin-right: 25%;
+    }
+
+    #btnsForm{
+        margin-top: 5%;
+        margin-bottom: 8%;
+        margin-left: 8%;
+    }
+
+    #btnEmpresas{
+        margin-left: 30%;
+        margin-right: 8%;
+        width: 202px;
+        height: 38px;
+        top: 787px;
+        display: inline-block;
+        border-radius: 12px;
+    }
+
+    #btnParticipa{
+        width: 202px;
+        height: 38px;
+        top: 787px;
+        display: inline;
+        border-radius: 12px;
+    }
+
+    #form{
+        display: flex;
+    }
+
+    /* h3{
+        font-family: 'Nova Round', cursive;
+        text-align: left;
+        color: #181818;
+    } */
+
+    .mapouter{
+        position:right;
+        text-align:right;
+        /* margin-left: 5%; */
+        /* margin-top: 8%; */
+        height:300px;
+        width:350px;
+    }
+
+    .gmap_canvas{
+        overflow:hidden;
+        background:none!important;
+        height:300px;
+        width:350px;
+    }
+
+    #dch{
+        position: right;
+        width: 70%;
+        display: flex;
+        margin-left: 3%;
+    }
+
+    #contacto{
+        position: left;
+        justify-content: flex-end;
+        margin-top: 0px;
+        width: 29%;
+    }
+
+    #contacto h3{
+        margin-bottom: 8%;
+    }
+
+    #formulario{
+        width: 55%;
+        display: inline-block;
+        margin-left: 5%;
+        margin-top: 0px;
+    }
+
+    .col-auto{
+        margin-bottom: 10%;
+    }
+
+    .form-control{
+        width: 60%;
+        float: right;
+    }
+
+    .form-label{
+        display: block;
+        float: left;
+    }
+
+    #enviar{
+        border-radius: 12px;
+        width: 202px;
+        height: 38px;
+        top: 787px;
+        margin-top: 5%;
+        float: right;
+
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+
+
+}
